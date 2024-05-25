@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Arishith Pakalapati</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Arishith Pakalapati</h1>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/arishith-pakalapati" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/arshith4401" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('about')">About Me</a></li>
+                <li><a href="#" onclick="showSection('education')">Education</a></li>
+                <li><a href="#" onclick="showSection('experience')">Professional Experience</a></li>
+              
+                <li><a href="#" onclick="showSection('projects')">Academic Projects</a></li>
+                <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+                <li><a href="#" onclick="showSection('certifications')">Certifications</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Arishith Pakalapati, a Computer Science graduate with a Master's degree from George Mason University. I have a strong passion for software development, with skills in both frontend and backend technologies.
+            </p>
+            <p>
+                I hold a Bachelor's degree in Computer Science and Engineering from Gokaraju Rangaraju Institute of Engineering and Technology in Hyderabad, India. My professional experience includes working as a Software Developer at Prodapt Solutions, where I developed dynamic web applications and improved user interfaces using JavaScript, AngularJS, and Python.
+            </p>
+            <p>
+                I am proficient in programming languages such as C, Python, Java, HTML/CSS, MySQL, JavaScript, and TypeScript, and have hands-on experience with tools like VS Code, Jupyter Notebook, PyCharm, AWS, Docker, Rancher, Kubernetes, and Jenkins.
+            </p>
+            <p>
+                My academic projects, including deploying web applications on Kubernetes and developing a feedback system for universities, reflect my commitment to software development. I am always eager to learn new technologies and contribute to innovative projects.
+            </p>
+        </section>
+
+        <section id="education" class="hidden">
+            <h2>Education</h2>
+            <p><strong>Master of Science in Computer Science</strong><br>
+            George Mason University, Fairfax, Virginia, United States<br>
+            Aug 2022 – May 2024</p>
+            <p><strong>GPA:</strong> 3.6/4</p>
+            <p><strong>Coursework:</strong></p>
+            <ul>
+                <li>Analysis of Algorithms</li>
+                <li>Data Mining</li>
+                <li>Fundamentals of Programming</li>
+                <li>Connected Automated Vehicles</li>
+                <li>Database Management Systems</li>
+                <li>Database for World Wide Web</li>
+                <li>Computer Graphics</li>
+                <li>Embedded Systems</li>
+                <li>Software Engineering for the World Wide Web</li>
+                <li>Component based Software development</li>
+            </ul>
+    
+
+            <p><strong>Bachelor of Engineering, Computer Science and Engineering</strong><br>
+            Gokaraju Rangaraju Institute of Engineering and Technology, Hyderabad, India</p>
+        </section>
+
+        <section id="experience" class="hidden">
+            <h2>Professional Experience</h2>
+            <p><strong>Prodapt Solutions, Hyderabad, India</strong><br>
+            Software Developer<br>
+            Mar 2020 - July 2022</p>
+
+            <p>
+                During my tenure at Prodapt Solutions, I worked as a Software Developer, where I was instrumental in spearheading the development of a dynamic sports community platform using JavaScript, AngularJS, and Python. This project significantly fostered user engagement by providing an interactive and user-friendly interface. My responsibilities included designing and innovating the user interface for optimal performance and seamless navigation, leveraging modern frontend frameworks.
+            </p>
+            <p>
+                I also integrated advanced features such as customizable user profiles, real-time match updates, and interactive forums to enhance user interaction and satisfaction. Additionally, I orchestrated the deployment of the application on cloud infrastructure using Docker containers and Kubernetes, ensuring scalability and reliability. My role involved maintaining and updating the company's WordPress-based website, where I implemented SEO best practices to enhance visibility and ensured a consistent user experience.
+            </p>
+            <p>
+                Furthermore, I was responsible for implementing backend functionalities and managing databases using Python. This included efficient data processing and management, which contributed to the overall robustness and efficiency of the applications I developed. My experience at Prodapt Solutions allowed me to refine my skills in both frontend and backend development, cloud deployment, and user interface design.
+            </p>
+        </section>
+
+        <section id="skills" class="hidden">
+            <h2>Skills</h2>
+            <p><strong>Languages:</strong> C, Python, Java, HTML/CSS , MySQL, JavaScript, TypeScript, Spring Boot, Data Mining</p>
+            <p><strong>Developer Tools:</strong> VS Code, sumo, Jupyter notebook, PyCharm, AWS, Docker, Rancher, Kubernetes, Jenkins</p>
+            <p><strong>Frameworks & Libraries:</strong> React, AngularJS</p>
+            <p><strong>Concepts & Methodologies:</strong> Object-Oriented Programming, Data Structures, Data-Driven Development, Product Lifecycle, Cloud Infrastructure</p>
+        </section>
+
+        <section id="projects" class="hidden">
+            <h2>Academic Projects</h2>
+            <div class="project-container">
+                <div class="project">
+                    <h3>PDF Conversational Chat Application</h3>
+                    <p>Streamlit, PyPDF2, Google Generative AI, FAISS | May 2024 </p>
+                    <ul>
+                        <li>Developed an interactive application for efficient analysis and interaction with data from PDF documents using Streamlit, PyPDF2, Google Generative AI, and FAISS.</li>
+                        <li>Implemented PDF text extraction, text chunking, and vector embeddings generation for question answering.</li>
+                        <li>Configured conversational chain for Q&A using FAISS and integrated Streamlit for user interaction.</li>
+                        <li>Provided session management and error handling features.</li>
+                    </ul>
+                </div>
+                
+                <div class="project">
+
+                    <h3>Student Survey Management System with Postman Testing</h3>
+                    <p>Spring Boot, RESTful Web Services, JPA/Hibernate, MySQL, Docker, Kubernetes | Apr 2024- May 2024</p>
+                    <ul>
+                        <li>Developed microservices-based applications using Spring Boot to manage student survey data with CRUD operations.</li>
+                        <li>Implemented RESTful Web Services for survey feedback collection and viewing functionalities.</li>
+                        <li>Utilized JPA/Hibernate with Amazon RDS/MySQL for efficient data storage and management.</li>
+                        <li>Containerized the application using Docker and deployed it on Kubernetes platform via CI/CD pipeline.</li>
+                        <li>Tested the functionality using Postman.</li>
+                        <li>Designed the student survey form with required fields including personal details, preferences about the campus, and likelihood of recommending the university.</li>
+                        <li>Ensured data integrity and system reliability through robust data validation and integration of Amazon RDS/MySQL.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3>CONTAINERIZING AND DEPLOYING WEB APPLICATIONS</h3>
+                    <p>AWS, Docker, Rancher, Kubernetes, Jenkins | Feb 2024</p>
+                    <ul>
+                        <li>Managed the deployment of AWS infrastructure and configured EC2 instances running Ubuntu Server.</li>
+                        <li>Ran containerized web apps on Kubernetes clusters under Rancher management, maintaining a robust architecture with three pods present all the time for optimal performance.</li>
+                        <li>Created a strong Jenkins CI/CD pipeline for continuous integration, ensuring effective and scalable application updates through automated GitHub monitoring, Docker image building, and smooth Kubernetes deployment upon code changes.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3>University Feedback System</h3>
+                    <p>Angular, NodeJs, Spring Boot, Hibernate, H2 Database | Nov 2023-Dec 2023</p>
+                    <ul>
+                        <li>Developed a user-friendly university feedback form utilizing Angular for the frontend, integrated with a robust Spring Boot backend and Hibernate H2 database for efficient data storage and management.</li>
+                        <li>Ensured seamless user experience and data integrity in the feedback collection process by implementing robust data validation and RESTful API integration.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3>Horizon Airline Bookings</h3>
+                    <p>Flask, JavaScript, Python, HTML, CSS | Mar 2023-May 2023</p>
+                    <ul>
+                        <li>Conceptualized and developed the innovative "Horizon Airline Bookings" project using Flask and MongoDB, streamlining the flight booking and management process.</li>
+                        <li>Pioneered the implementation of a promo code system, resulting in a remarkable increase in customer engagement through applied discounts.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3>Drug Prediction Using Ensemble Learning</h3>
+                    <p>Data Mining, Python, Jupyter Notebook | Aug 2022-Sep 2022</p>
+                    <ul>
+                        <li>Developed and fine-tuned binary classification models utilizing Decision Tree, Naïve Bayes, and Boosting algorithms to determine compound activity, achieving a robust accuracy rate of 80%.</li>
+                        <li>Optimized model performance through feature selection, reduction, and distance measures.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="certifications" class="hidden">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Cisco Programming Essentials in Python</li>
+                <li>Cisco Devnet Associate</li>
+                <li>Data Science for Engineers, NPTEL- Enhanced Engineering Data Decision-Making</li>
+                <li>User Centric Computing for Human Interaction, NPTEL</li>
+
+            </ul>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

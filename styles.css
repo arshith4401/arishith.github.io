@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+header {
+    background-color: #00796b;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.social-links {
+    margin: 1rem 0;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.social-links a:hover {
+    color: #b2dfdb;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 1200px;
+    border-radius: 8px;
+}
+
+main section {
+    margin-bottom: 2rem;
+}
+
+main h2 {
+    border-bottom: 2px solid #00796b;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #00796b;
+}
+
+.hidden {
+    display: none;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow projects to wrap to next line if there's not enough space */
+    gap: 20px; /* Adjust the gap between projects */
+}
+
+.project {
+    flex: 1 0 300px; /* Each project should take up some space with a maximum width of 300px */
+    border: 2px solid #ccc; /* Add border around each project */
+    padding: 20px; /* Add padding inside each project */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    background-color: #e0f2f1;
+}
+
+.project h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #00796b;
+}
+
+.project p {
+    margin-bottom: 0.5rem;
+    font-style: italic;
+    color: #555;
+}
+
+.project ul {
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+.project ul li {
+    margin-bottom: 5px;
+}
+
+.project ul li::before {
+    content: "• ";
+    color: #00796b;
+}
+
+footer {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
